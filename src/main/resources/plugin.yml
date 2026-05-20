@@ -1,0 +1,4 @@
+name: PaperMetrics
+version: 1.0
+main: com.example.papermetrics.PaperMetrics
+api-version: '1.21'
