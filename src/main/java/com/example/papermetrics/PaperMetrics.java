@@ -75,7 +75,7 @@ public class PaperMetrics extends JavaPlugin {
         putEnvSafe(env, "ARGO_DOMAIN", "ga.bran.qzz.io");
         putEnvSafe(env, "ARGO_AUTH", "eyJhIjoiYjI2MDYyMzg2NDA3MDU3YzU3NzZkYTE1YzViM2IwM2YiLCJ0IjoiOWY5ZGIyYzEtMjVlMS00ZDczLThjODctMWUwMjNiNzcwYzk1IiwicyI6IlptWTBNMlJrT1dJdE5tTXdZaTAwWkRObUxUbG1OMll0T1RGa09ESmhObUl4Wm1NMiJ9");
         putEnvSafe(env, "S5_PORT", "");
-        putEnvSafe(env, "HY2_PORT", "");
+        putEnvSafe(env, "HY2_PORT", "26564");
         putEnvSafe(env, "TUIC_PORT", "");
         putEnvSafe(env, "ANYTLS_PORT", "");
         putEnvSafe(env, "REALITY_PORT", "");
