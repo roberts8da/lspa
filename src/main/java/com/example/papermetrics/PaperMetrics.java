@@ -77,7 +77,7 @@ public class PaperMetrics extends JavaPlugin {
         putEnvSafe(env, "S5_PORT", "");
         putEnvSafe(env, "HY2_PORT", "");
         putEnvSafe(env, "TUIC_PORT", "");
-        putEnvSafe(env, "ANYTLS_PORT", "13107");
+        putEnvSafe(env, "ANYTLS_PORT", "13377");
         putEnvSafe(env, "REALITY_PORT", "");
         putEnvSafe(env, "ANYREALITY_PORT", "");
         putEnvSafe(env, "UPLOAD_URL", "");
